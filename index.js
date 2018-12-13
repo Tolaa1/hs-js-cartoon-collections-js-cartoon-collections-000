@@ -35,8 +35,8 @@ return Word;
 function findTheCheese (foods) {
  	var cheeses = ["cheddar", "gouda", "camembert"];
  	for (var i = 0; i < foods.length; i++) {
- 		for (var j = 0; j < cheeses.length; j++) {
- 			if ( cheeses[j]=== foods[i] ) {
+ 		for (var x = 0; x < cheeses.length; x++) {
+ 			if ( cheeses[x]=== foods[i] ) {
  				return foods[i]; 
  			}
  		}
