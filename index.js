@@ -40,7 +40,7 @@ function findTheCheese (foods) {
  				return foods[i]; 
  			}
  		}
- 	}
+ 		}
  	return "no cheese!"; 
  }
 
