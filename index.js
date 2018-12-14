@@ -18,10 +18,10 @@ function summonCaptainPlanet(planeteerCalls){
   return calls;
 }
 
-function longPlaneteerCalls(words) {
+function longPlaneteerCalls(calls) {
   var Word = false;
-  for (var i = 0; i < words.length; i++){
-    if (words[i].length > 4){
+  for (var i = 0; i < calls.length; i++){
+    if (calls[i].length > 4){
       Word = true;
     
   }
