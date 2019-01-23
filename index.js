@@ -33,16 +33,29 @@ return Word;
 
 
 function findTheCheese (foods) {
- 	var cheeses = ["cheddar", "gouda", "camembert"];
+ 	var mycheeses = ["cheddar", "gouda", "camembert"];
  	for (var i = 0; i < foods.length; i++) {
- 		for (var x = 0; x < cheeses.length; x++) {
- 			if ( cheeses[x]=== foods[i] ) {
+ 		for (var x = 0; x < mycheeses.length; x++) {
+ 			if ( mycheeses[x]=== foods[i] ) {
  				return foods[i]; 
  			}
  		}
  		}
  	return "no cheese!"; 
  }
+
+
+function wordsWithB(words) {
+  var word = [];
+  for (var i = 0; i< words.length; i++) {
+    if (words[i].startWith("b") ) {
+      return word;
+    }
+  }
+}
+
+
+
 
 
 	
